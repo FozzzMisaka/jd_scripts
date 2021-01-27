@@ -36,7 +36,7 @@ let ACT_ID = 'A_112790_R_3_D_20201102'
 let cookiesArr = [], cookie = '', message;
 let inviteCodes = [
   '2828858',
-  '2828858',
+  '2828467',
 ]
 if ($.isNode()) {
   Object.keys(jdCookieNode).forEach((item) => {
