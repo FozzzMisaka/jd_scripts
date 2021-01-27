@@ -37,7 +37,7 @@ const randomCount = $.isNode() ? 20 : 5;
 
 const inviteCodes = [
   ``,
-  ``,
+  `oERmJ9VFQebZEbhzrXExlnoJUVvcZtpTvflLRDLqklg`,
 ];
 
 if ($.isNode()) {
