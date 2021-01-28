@@ -132,7 +132,7 @@ function getIsvToken() {
       try {
         if (err) {
           console.log(`${err},${jsonParse(resp.body)['message']}`)
-          console.log(`${$.name} API请求失败，请检查网路重试`)
+          console.log(`${$.name} API请求失败，请检查网路重试1`)
         } else {
           if (safeGet(data)) {
             data = JSON.parse(data);
@@ -155,7 +155,7 @@ function getIsvToken2() {
       try {
         if (err) {
           console.log(`${err},${jsonParse(resp.body)['message']}`)
-          console.log(`${$.name} API请求失败，请检查网路重试`)
+          console.log(`${$.name} API请求失败，请检查网路重试2`)
         } else {
           if (safeGet(data)) {
             data = JSON.parse(data);
@@ -187,7 +187,7 @@ function getActInfo(inviter=null) {
       try {
         if (err) {
           console.log(`${err}`)
-          console.log(`${$.name} API请求失败，请检查网路重试`)
+          console.log(`${$.name} API请求失败，请检查网路重试3`)
         } else {
           if (safeGet(data)) {
             data = JSON.parse(data);
@@ -222,7 +222,7 @@ function checkLogin() {
       try {
         if (err) {
           console.log(`${err}`)
-          console.log(`${$.name} API请求失败，请检查网路重试`)
+          console.log(`${$.name} API请求失败，请检查网路重试4`)
         } else {
           if (safeGet(data)) {
             data = JSON.parse(data);
@@ -264,7 +264,7 @@ function getTaskList() {
         try {
           if (err) {
             console.log(`${err}`)
-            console.log(`${$.name} API请求失败，请检查网路重试`)
+            console.log(`${$.name} API请求失败，请检查网路重试5`)
           } else {
             if (safeGet(data)) {
               data = JSON.parse(data)
@@ -401,7 +401,7 @@ function beginLevel() {
           if (err) {
             console.log(`${err}`)
             console.log(resp)
-            console.log(`${$.name} API请求失败，请检查网路重试`)
+            console.log(`${$.name} API请求失败，请检查网路重试6`)
           } else {
             if (safeGet(data)) {
               data = JSON.parse(data)
@@ -444,7 +444,7 @@ function endLevel() {
           if (err) {
             console.log(`${err}`)
             console.log(resp)
-            console.log(`${$.name} API请求失败，请检查网路重试`)
+            console.log(`${$.name} API请求失败，请检查网路重试7`)
           } else {
             if (safeGet(data)) {
               data = JSON.parse(data)
@@ -485,7 +485,7 @@ function uploadTask(taskType, value) {
         try {
           if (err) {
             console.log(`${err}`)
-            console.log(`${$.name} API请求失败，请检查网路重试`)
+            console.log(`${$.name} API请求失败，请检查网路重试8`)
           } else {
             if (safeGet(data)) {
               data = JSON.parse(data)
@@ -519,7 +519,7 @@ function finishTask(taskId) {
         try {
           if (err) {
             console.log(`${err}`)
-            console.log(`${$.name} API请求失败，请检查网路重试`)
+            console.log(`${$.name} API请求失败，请检查网路重试9`)
           } else {
             if (safeGet(data)) {
               data = JSON.parse(data)
@@ -556,7 +556,7 @@ function execute(body) {
         try {
           if (err) {
             console.log(`${err}`)
-            console.log(`${$.name} API请求失败，请检查网路重试`)
+            console.log(`${$.name} API请求失败，请检查网路重试10`)
           } else {
             if (safeGet(data)) {
               data = JSON.parse(data)
@@ -589,7 +589,7 @@ function getDailyMatch() {
           if (err) {
             console.log(`${err}`)
             console.log(resp)
-            console.log(`${$.name} API请求失败，请检查网路重试`)
+            console.log(`${$.name} API请求失败，请检查网路重试11`)
           } else {
             if (safeGet(data)) {
               data = JSON.parse(data)
@@ -631,7 +631,7 @@ function beginDailyMatch() {
           if (err) {
             console.log(`${err}`)
             console.log(resp)
-            console.log(`${$.name} API请求失败，请检查网路重试`)
+            console.log(`${$.name} API请求失败，请检查网路重试12`)
           } else {
             if (safeGet(data)) {
               data = JSON.parse(data)
@@ -670,7 +670,7 @@ function endDailyMatch() {
           if (err) {
             console.log(`${err}`)
             console.log(resp)
-            console.log(`${$.name} API请求失败，请检查网路重试`)
+            console.log(`${$.name} API请求失败，请检查网路重试13`)
           } else {
             if (safeGet(data)) {
               data = JSON.parse(data)
@@ -704,7 +704,7 @@ function getDailyMatchAward() {
           if (err) {
             console.log(`${err}`)
             console.log(resp)
-            console.log(`${$.name} API请求失败，请检查网路重试`)
+            console.log(`${$.name} API请求失败，请检查网路重试14`)
           } else {
             if (safeGet(data)) {
               data = JSON.parse(data)
@@ -738,7 +738,7 @@ function marketGoods() {
         try {
           if (err) {
             console.log(`${err}`)
-            console.log(`${$.name} API请求失败，请检查网路重试`)
+            console.log(`${$.name} API请求失败，请检查网路重试15`)
           } else {
             if (safeGet(data)) {
               data = JSON.parse(data)
@@ -780,7 +780,7 @@ function buyGood(consumeid) {
         try {
           if (err) {
             console.log(`${err}`)
-            console.log(`${$.name} API请求失败，请检查网路重试`)
+            console.log(`${$.name} API请求失败，请检查网路重试16`)
           } else {
             if (safeGet(data)) {
               data = JSON.parse(data)
@@ -865,7 +865,7 @@ function TotalBean() {
       try {
         if (err) {
           console.log(`${JSON.stringify(err)}`)
-          console.log(`${$.name} API请求失败，请检查网路重试`)
+          console.log(`${$.name} API请求失败，请检查网路重试17`)
         } else {
           if (data) {
             data = JSON.parse(data);
